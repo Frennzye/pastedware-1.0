@@ -44,7 +44,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		" blue",
 		" brown",
 		" gay",
-		"plus",
+		"ware",
 		""
 	};
 
@@ -94,7 +94,7 @@ public class WurstplusChatSuffix extends WurstplusHack {
 		if (accept_suffix) {
 			if (suffix_default) {
 				// Just default.
-				message += Wurstplus.WURSTPLUS_SIGN + convert_base("wurstplus two");
+				message += Wurstplus.WURSTPLUS_SIGN + convert_base("pastedware");
 			}
 
 			if (suffix_random) {
