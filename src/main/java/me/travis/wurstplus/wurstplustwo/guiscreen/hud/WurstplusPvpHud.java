@@ -20,7 +20,7 @@ public class WurstplusPvpHud extends WurstplusPinnable {
 
         String totem = "Totems: " + get_totems();
         String trap = "Trap: " + trap_enabled();
-        String aura = "Aura: " + aura_enabled();
+        String aura = "AutoCrystal: " + aura_enabled();
         String surround = "Surround: " + surround_enabled();
         String holefill = "Holefill: " + holefill_enabled();
         String socks = "Socks: " + socks_enabled();
