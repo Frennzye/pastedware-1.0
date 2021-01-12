@@ -78,11 +78,11 @@ public class WurstplusAuto32k extends WurstplusHack {
         }
 
         if ((hopper_slot == -1 || dispenser_slot == -1 || redstone_slot == -1 || shulker_slot == -1 || block_slot == -1) && !place_mode.in("Hopper")) {
-            WurstplusMessageUtil.send_client_message("missing item");
+            WurstplusMessageUtil.send_client_message("missing something, go get it scout! :^)");
             this.set_disable();
             return;
         } else if (hopper_slot == -1 || shulker_slot == -1) {
-            WurstplusMessageUtil.send_client_message("missing item");
+            WurstplusMessageUtil.send_client_message("missing something, go get it scout! :^)");
             this.set_disable();
             return;
         }
