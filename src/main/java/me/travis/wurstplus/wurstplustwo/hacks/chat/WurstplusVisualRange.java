@@ -47,7 +47,7 @@ public class WurstplusVisualRange extends WurstplusHack {
 					if (WurstplusFriendUtil.isFriend(name)) {
 						WurstplusMessageUtil.send_client_message("your friend " + ChatFormatting.RESET + ChatFormatting.GREEN + name + ChatFormatting.RESET + " showed up:D");
 					} else {
-						WurstplusMessageUtil.send_client_message("some gay man called " + ChatFormatting.RESET + ChatFormatting.RED + name + ChatFormatting.RESET + ". lmao");
+						WurstplusMessageUtil.send_client_message("some guy called " + ChatFormatting.RESET + ChatFormatting.RED + name + ChatFormatting.RESET + ". showed up lmao");
 					}
 					people.add(name);
 				}
